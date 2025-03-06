@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6e6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+#gallery img {
+    width: 100px;
+    margin: 5px;
+    border-radius: 5px;
+}
