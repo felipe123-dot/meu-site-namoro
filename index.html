@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Namoro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nosso Namoro</h1>
+        <label for="startDate">Data que começamos a namorar:</label>
+        <input type="date" id="startDate" onchange="calculateTime()">
+        <p id="result"></p>
+        
+        <h2>Nossas Fotos</h2>
+        <input type="file" id="upload" multiple accept="image/*">
+        <div id="gallery"></div>
+
+        <h2>Nosso Texto Especial</h2>
+        <textarea id="loveText" placeholder="Escreva algo bonito..."></textarea>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
